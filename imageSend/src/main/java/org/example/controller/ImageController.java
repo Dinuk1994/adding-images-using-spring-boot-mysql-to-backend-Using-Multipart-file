@@ -13,6 +13,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/saveImage")
 public class ImageController {
     @Autowired
